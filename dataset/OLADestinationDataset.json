@@ -1,0 +1,17 @@
+{
+	"name": "OLADestinationDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OLAPDBLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Population"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
