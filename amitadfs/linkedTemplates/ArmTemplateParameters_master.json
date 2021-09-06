@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "amitadfs"
+		},
+		"AzureBlobStorageLS_connectionString": {
+			"value": ""
+		},
+		"OLAPDBLS_connectionString": {
+			"value": ""
+		},
+		"OLTPLS_connectionString": {
+			"value": ""
+		},
+		"BlobCreatedEvent_properties_typeProperties_scope": {
+			"value": "/subscriptions/c30e25e7-8e0c-4019-b378-3c3abf2b6e91/resourceGroups/COGRG/providers/Microsoft.Storage/storageAccounts/amitacc"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
